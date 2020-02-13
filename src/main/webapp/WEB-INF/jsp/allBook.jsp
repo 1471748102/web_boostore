@@ -32,6 +32,20 @@
         <div class="col-md-4 column">
             <a class="btn btn-primary" href="${pageContext.request.contextPath}/book/toAddBook">新增</a>
         </div>
+        <div class="col-md-4 column"></div>
+        <div class="col-md-4 column">
+            <form action="method">
+                <div class="row" style="float: left">
+                    <div style="float: left">
+                        <input type="text" class ="form-control" placeholder="请输入查询书籍的名称">
+                    </div>
+                    <div style="float: right">
+                        <input type="submit" value = "查询" class="btn btn-primary">
+                    </div>
+                </div>
+
+            </form>
+        </div>
     </div>
 
     <div class="row clearfix">
