@@ -6,4 +6,8 @@
     <typeAliases>
         <package name="com.wu.pojo"/>
     </typeAliases>
+
+    <mappers>
+        <mapper class="com.wu.dao.BookMapper"/>
+    </mappers>
 </configuration>
